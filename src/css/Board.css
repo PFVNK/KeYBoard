@@ -1,0 +1,50 @@
+.board-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.board {
+  height: 300px;
+  width: 900px;
+  border: solid black;
+  background-color:#F0F0F0;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding-bottom: 20px;
+  place-items: center;
+}
+
+.spacebar {
+  width: 390px;
+  height: 50px;
+  border: solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 4 / 6;
+}
+
+.backspace {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+  grid-column: 7/ 8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter {
+  height: 50px;
+  width: 50px;
+  border: solid black;
+  grid-column: 8 / 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,7 @@
+.display {
+  width: 900px;
+  height: 80px;
+  border: solid black;
+  background-color: white;
+  transform: translate(0, -20px);
+}
